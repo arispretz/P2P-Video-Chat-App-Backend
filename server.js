@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://p2p-video-chat-app-frontend-bexadj1ek.vercel.app',
     methods: ['GET', 'POST']
   }
 });
